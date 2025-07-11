@@ -8,17 +8,29 @@ body {
     background-image: url('s1.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: #fff2e8;
 }
 .custom-bg2 {
     background-image: url('cover.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: #fff2e8;
     background-color: rgba(0, 0, 0, 0);
     background-blend-mode: overlay;
 }
 
+
+.custom-outline-btn {
+    color: #fff2e8;
+    border: 1px solid #fff2e8;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+
+  .custom-outline-btn:hover {
+    background-color: #fff2e8;
+    color: #000; /* contrast text on hover */
+  }
 
 
 .masonry {
