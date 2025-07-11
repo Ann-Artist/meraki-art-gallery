@@ -1,5 +1,5 @@
 body {
-    background-color: #1f1e1e;
+    background-color: #000000;
 
     padding: 2%;
 }
@@ -10,17 +10,14 @@ body {
     background-position: center;
     color: white;
 }
-
-
-.text-glow {
-    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
-    transition: text-shadow 0.3s ease-in-out;
+.custom-bg2 {
+    background-image: url('cover.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: overlay;
 }
-
-.text-glow:hover {
-    text-shadow: 0 0 15px #fff, 0 0 30px #6a11cb;
-}
-
 
 
 
