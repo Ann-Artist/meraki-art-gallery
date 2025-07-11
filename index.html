@@ -38,12 +38,12 @@
     <!-- Artworks-->
     <div class="container mt-5">
         <h3 class="text-center mb-4 text-light lead mt-3 fst-italic">My ARTWORKS</h3>
-        <div class="btn-group btn-group-lg d-flex justify-content-center align-items-center flex-wrap" style="margin-left: 10%; margin-right: 10%;">
-            <a href="#" class="btn custom-outline-btn" target="_blank">All</a>
-            <a href="#" class="btn custom-outline-btn" target="_blank">Sketches</a>
-            <a href="#" class="btn custom-outline-btn" target="_blank">Paintings</a>
-            <a href="#" class="btn custom-outline-btn" target="_blank">Nature</a>
-            <a href="#" class="btn custom-outline-btn" target="_blank">Festival</a>
+        <div class="btn-group btn-group-lg d-flex justify-content-center align-items-center flex-wrap mb-4">
+            <button class="btn custom-outline-btn filter-btn active" data-filter="all">All</button>
+            <button class="btn custom-outline-btn filter-btn" data-filter="sketches">Sketches</button>
+            <button class="btn custom-outline-btn filter-btn" data-filter="paintings">Paintings</button>
+            <button class="btn custom-outline-btn filter-btn" data-filter="nature">Nature</button>
+            <button class="btn custom-outline-btn filter-btn" data-filter="divine">Divine</button>
         </div>
         <br>
         <br>
@@ -51,7 +51,7 @@
 
         <div class="masonry">
 
-            <div class="masonry-item position-relative overflow-hidden">
+            <div class="masonry-item position-relative overflow-hidden" data-category="sketches divine">
                 <img src="images/d1.jpg" alt="Art 1">
                 <div class="overlay">
                     <h4 class="card-title">Title</h4>
@@ -59,7 +59,7 @@
                     <a href="#" class="btn btn-primary btn-sm">More</a>
                 </div>
             </div>
-            <div class="masonry-item position-relative overflow-hidden">
+            <div class="masonry-item position-relative overflow-hidden" data-category="Paintings divine">
                 <img src="images/d2.jpg" alt="Art 2">
                 <div class="overlay">
                     <h4 class="card-title">Title</h4>
@@ -169,12 +169,16 @@
         </div>
     </div>
 
-<footer class="bg-dark text-light text-center py-5 mt-5 custom-bg2">
-    <p class="mb-0">Made with <span class="text-danger">&hearts;</span></p>
-    <p class="mb-0">Contact: <a href="mailto:shrav"></a></p>
-    <p class="mb-0">© 2025 Shravani. All rights reserved.</p>
-    <p class="mb-0">Follow me on <a href="#" class="text-light">Instagram</a> | <a href="#" class="text-light">Facebook</a></p>
-</footer>
+    <footer class="bg-dark text-light text-center py-5 mt-5 custom-bg2">
+        <p class="mb-0">Made with <span class="text-danger">&hearts;</span></p>
+        <p class="mb-0">Contact: <a href="mailto:shrav"></a></p>
+        <p class="mb-0">© 2025 Shravani. All rights reserved.</p>
+        <p class="mb-0">Follow me on <a href="#" class="text-light">Instagram</a> | <a href="#"
+                class="text-light">Facebook</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>

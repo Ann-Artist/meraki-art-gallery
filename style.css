@@ -52,6 +52,12 @@ body {
     border-radius: 6px;
 }
 
+.filter-btn.active {
+  background-color: #ffffff22;
+  border-color: #ffffff;
+  color: #fff;
+}
+
 /* Optional overlay styles */
 .overlay {
     background: rgba(0, 0, 0, 0.6);
