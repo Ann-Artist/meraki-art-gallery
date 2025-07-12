@@ -1,6 +1,6 @@
 body {
     background-color: #000000;
-    margin: 0 2% 0 2%;
+    margin: 90px 2% 0 2%;
 }
 
 .custom-bg {
@@ -17,6 +17,11 @@ body {
     background-color: rgba(0, 0, 0, 0);
     background-blend-mode: overlay;
 }
+.custom-bg3 {
+    background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+}
+
+
 
 /* Custom Fonts */
 .playwrite-au-sa {
