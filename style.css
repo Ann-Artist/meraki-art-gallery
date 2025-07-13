@@ -135,6 +135,33 @@ body {
     margin: 0;
 }
 
+/* Contact section*/
+#contact input,
+#contact textarea {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #444;
+  transition: border-color 0.3s ease;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #fff; 
+  outline: none; 
+}
+
+#contact input::placeholder,
+#contact textarea::placeholder {
+  color: #aaa;
+}
+
+#contact label {
+  font-weight: 500;
+}
+
+.custom-width {
+  width: 90%;
+}
 
 
 /* Desktop Large (≥ 992px) */
