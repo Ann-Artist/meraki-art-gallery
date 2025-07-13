@@ -21,3 +21,32 @@ filterButtons.forEach(btn => {
     });
   });
 });
+const h1Text = "Hello!";
+const h2Text = "I'm Shravani ...";
+
+const h1Element = document.getElementById("typing-h1");
+const h2Element = document.getElementById("typing-h2");
+
+let h1Index = 0;
+let h2Index = 0;
+
+function typeH1() {
+  if (h1Index < h1Text.length) {
+    h1Element.textContent += h1Text.charAt(h1Index);
+    h1Index++;
+    setTimeout(typeH1, 100); // typing speed
+  } else {
+    setTimeout(typeH2, 500); // wait before typing second line
+  }
+}
+
+function typeH2() {
+  if (h2Index < h2Text.length) {
+    h2Element.textContent += h2Text.charAt(h2Index);
+    h2Index++;
+    setTimeout(typeH2, 100);
+  }
+}
+
+// Start typing on page load
+window.addEventListener("DOMContentLoaded", typeH1);
