@@ -57,7 +57,7 @@ body {
 
 
 
-
+/* Custom Button Styles */
 .custom-outline-btn {
     color: #fff2e8;
     border: 1px solid #fff2e8;
@@ -161,6 +161,11 @@ body {
 
 .custom-width {
   width: 90%;
+}
+
+.dark-list .list-group-item {
+    background-color: #1d1d1d;
+    color: #fff2e8;
 }
 
 
