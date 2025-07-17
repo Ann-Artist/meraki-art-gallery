@@ -9,6 +9,7 @@ body {
     background-position: center;
     color: #fff2e8;
 }
+
 .custom-bg2 {
     background-image: url('cover.jpg');
     background-size: cover;
@@ -17,42 +18,44 @@ body {
     background-color: rgba(0, 0, 0, 0);
     background-blend-mode: overlay;
 }
+
 .custom-bg3 {
-    background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* semi-transparent black */
 }
 
 
 
 /* Custom Fonts */
 .playwrite-au-sa {
-  font-family: "Playwrite AU SA", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Playwrite AU SA", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .delius-swash-caps-regular {
-  font-family: "Delius Swash Caps", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .sour-gummy-1 {
-  font-family: "Sour Gummy", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 .sour-gummy-2 {
-  font-family: "Sour Gummy", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
@@ -63,12 +66,13 @@ body {
     border: 1px solid #fff2e8;
     background-color: transparent;
     transition: all 0.3s ease;
-  }
+}
 
-  .custom-outline-btn:hover {
+.custom-outline-btn:hover {
     background-color: #fff2e8;
-    color: #000; /* contrast text on hover */
-  }
+    color: #000;
+    /* contrast text on hover */
+}
 
 .responsive-btn-group .btn {
     margin: 0.25rem;
@@ -91,9 +95,9 @@ body {
 }
 
 .filter-btn.active {
-  background-color: #ffffff22;
-  border-color: #ffffff;
-  color: #fff;
+    background-color: #ffffff22;
+    border-color: #ffffff;
+    color: #fff;
 }
 
 /* Optional overlay styles */
@@ -138,29 +142,29 @@ body {
 /* Contact section*/
 #contact input,
 #contact textarea {
-  background-color: #222;
-  color: #fff;
-  border: 1px solid #444;
-  transition: border-color 0.3s ease;
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #444;
+    transition: border-color 0.3s ease;
 }
 
 #contact input:focus,
 #contact textarea:focus {
-  border-color: #fff; 
-  outline: none; 
+    border-color: #fff;
+    outline: none;
 }
 
 #contact input::placeholder,
 #contact textarea::placeholder {
-  color: #aaa;
+    color: #aaa;
 }
 
 #contact label {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .custom-width {
-  width: 90%;
+    width: 90%;
 }
 
 .dark-list .list-group-item {
@@ -174,12 +178,15 @@ body {
     .masonry {
         column-count: 4;
     }
+
     .masonry-title {
         font-size: 1.25rem;
     }
+
     .masonry-desc {
         font-size: 1rem;
     }
+
     .masonry-info {
         padding: 1rem;
     }
@@ -190,12 +197,15 @@ body {
     .masonry {
         column-count: 2;
     }
+
     .masonry-title {
         font-size: 1rem;
     }
+
     .masonry-desc {
         font-size: 0.875rem;
     }
+
     .masonry-info {
         padding: 0.75rem;
     }
@@ -206,14 +216,16 @@ body {
     .masonry {
         column-count: 1;
     }
+
     .masonry-title {
         font-size: 0.9rem;
     }
+
     .masonry-desc {
         font-size: 0.75rem;
     }
+
     .masonry-info {
         padding: 0.5rem;
     }
 }
-
